@@ -1,0 +1,187 @@
+/***********************
+GENERAL
+************************/
+body, html {
+	margin: 0;
+	height: 100%;
+	font-family: Arial, sans-serif;
+}
+
+img {
+	max-width: 100%
+}
+
+h1 {
+	font-size: 52px;
+	font-family: Arial;
+  	color: #fff;
+}
+
+h4 {
+  color: #FFF;
+  font-size: 22px;
+  font-family: arial;
+}
+
+h2 {
+  color: #2B95FD;
+  font-size: 36px;
+  margin-top: 70px;
+  margin-bottom: 24px;
+}
+
+h5 {
+  color: #959595;
+  font-size: 22px;
+  font-family: arial;
+  margin-bottom: 70px;
+}
+
+
+h3 {
+  font-size: 42px;
+  font-family: arial;
+  color: #FFF;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+h6 {
+  font-size: 24px;
+  font-family: arial;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #FFF;
+}
+
+p {
+  font-size: 18px;
+  font-family: arial;
+  color: #FFF;
+}
+
+h7 {
+  color: #FFF;
+  font-size: 30px;
+  font-family: arial;
+}
+
+
+
+/***********************
+NAVBAR
+************************/
+
+.btn
+{
+  border-radius: 25px;
+  border-color: #FF0066;
+  color: white;
+  background-color: #FF0066;
+  padding: 10px 40px;
+}
+
+.navSubscribe
+{
+  float: right;
+}
+
+.navLogin
+{
+  float: right;
+}
+
+/***********************
+HERO
+************************/
+.hero, .about{
+  width:100%;
+  height:75%;
+  margin: 0 auto;
+}
+
+.hero {
+  background-image: url("../img/hero-photo.png");
+  background-size:cover;
+  background-position:center center;
+}
+  
+.hero-text {
+  margin-left: 209px;
+}
+
+
+.middle, .content {
+  text-align: center;
+}
+
+/***********************
+COLUMNS
+************************/
+
+.columns {
+  width: 1002px;
+  margin: 0 auto;
+  font-size: 0; 
+}
+
+.module1 {
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 350px;
+  width: 280px;
+  border-radius: 10px;
+  background-color: blue;
+  display: inline-block;
+  vertical-align: top;
+  margin: 27px; 
+}
+.module1 p {
+  margin-bottom: 80px;
+}
+.module2 {
+  height: 350px;
+  width: 280px;
+  border-radius: 10px;
+  background-color: purple;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  margin: 27px;
+}
+
+.module2 p {
+  margin-bottom: 80px;
+}
+
+.module3 {
+  height: 350px;
+  width: 280px;
+  border-radius: 10px;
+  background-color: green;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  margin: 27px;
+}
+
+.module3 p {
+  margin-bottom: 80px;
+}
+
+.signup {
+  background: transparent;
+  font-size: 22px;
+  border: 1px solid white;
+  margin-top: 80px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.wrapper {
+	width: 1220px;
+	height: 410px;
+}
+  
